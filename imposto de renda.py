@@ -4,7 +4,7 @@
 renda_anual = float(input('Informe a renda anual: '))
 quantidade_dependentes = int(input('Informe o numero de dependentes: '))
 
-#processamento
+# processamento
 porcentagem_desconto = quantidade_dependentes * 2
 valor_desconto = (renda_anual / 100) * porcentagem_desconto
 renda_liquida = renda_anual - valor_desconto
