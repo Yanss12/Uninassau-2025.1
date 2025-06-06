@@ -1,4 +1,6 @@
 import random
+
+#--------------------------------------------------------------------------#
 catalogo_livros = []
 
 # função para adicionar livro no catalogo
@@ -38,3 +40,26 @@ def buscar_livro_por_titulo(titulo: str) -> list:
    for livro in catalogo_livros:
       if livro.get('titulo').lower() == titulo.lower():
          return livro
+   print("livro não cadastrado")
+   return None
+#--------------------------------------------------------------------------#
+cadastro_usuarios = []
+
+# função para adicionar livro no catalogo
+def adicionar_usuario(novo_usuario : dict) -> None:
+   '''
+      Descrição: Função para adicionar novo cliente no sistema(lista).\n
+      Parâmetro: A função recebe um novo_usuario do tipo dict.\n
+      Retorno: A função não retorna nada.
+   '''    
+   cadastro_usuarios.append()
+
+# função para listar os clientes no sistema
+def listar_usuarios() -> list:
+   '''
+      Descrição: função para retornar os usuarios no sistema(lista).\n
+      Parâmetro: a função não recebe valores do parametro.\n
+      Retorno: A função retorna uma lista com todos os usuarios.
+   '''
+   return cadastro_usuarios
+
